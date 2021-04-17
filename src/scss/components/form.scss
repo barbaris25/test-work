@@ -1,0 +1,12 @@
+.user-form {
+  &__title {
+    margin: 0 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .input-field input[type="text"]:focus + label {
+    transform: translateY(-14px) scale(0.8);
+    color: #000;
+  }
+}

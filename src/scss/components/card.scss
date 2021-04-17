@@ -1,0 +1,11 @@
+.card {
+  border-radius: 5px;
+
+  .card-image, .card-image img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .btn-floating i {
+    font-size: 16px;
+  }
+}
