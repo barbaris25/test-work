@@ -1,1 +1,3 @@
 # Test work
+
+yarn install
