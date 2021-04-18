@@ -1,0 +1,29 @@
+.nav-link {
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+
+  a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1024px) {
+  #root {
+    nav .brand-logo {
+      font-size: 1.5rem;
+    }
+
+    nav .sidenav-trigger {
+      margin: 0;
+    }
+
+    .sidenav {
+      padding-top: 70px;
+
+      .material-icons {
+        margin-right: 12px;
+      }
+    }
+  }
+}

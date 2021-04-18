@@ -1,12 +1,10 @@
 import React from 'react'
-import Form from '../components/Form'
+import { Form } from '../components/Form'
 
-const AddUser = () => {
+export const AddUser = ({ props }) => {
   return (
     <div className="row">
-      <Form />
+      <Form props={props} />
     </div>
   )
-}
-
-export default AddUser
+};

@@ -8,4 +8,17 @@
   .btn-floating i {
     font-size: 16px;
   }
+
+  .btn-floating.halfway-fab:first-of-type {
+    // Знаю что так делать нельзя, но я не хочу тратить время на переписывание верстки
+    right: 60px !important;
+  }
+
+  .btn-floating.halfway-fab:last-child {
+    right: 12px !important;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 -0.75rem 1.5rem !important;
+  }
 }
